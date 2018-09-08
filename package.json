@@ -1,0 +1,30 @@
+{
+  "name": "messagingapp",
+  "version": "1.0.0",
+  "description": "package json for messagingApp",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "tsc app/index.ts && nodemon app/index.js",
+    "compile": "tsc app/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chima42/messagingApp.git"
+  },
+  "author": "Chima Nwosu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chima42/messagingApp/issues"
+  },
+  "homepage": "https://github.com/Chima42/messagingApp#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "tslint": "^5.11.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/node": "^10.9.4",
+    "nodemon": "^1.18.4",
+    "ts-node": "^7.0.1"
+  }
+}
